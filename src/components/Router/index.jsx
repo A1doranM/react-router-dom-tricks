@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "../../pages/Home";
 import ResponsiveRoutesPage from "../../pages/1-ResponsiveRoutes";
-import PopupsRoutesPage from "../../pages/PopupsRoutes";
+import PopupsRoutesPage from "../../pages/2-PopupsRoutes";
 import CustomPromptPage from "../../pages/CustomPrompt";
 import ClosePopupPage from "../../pages/ClosePopup";
 import RestorePreventedRoutePage from "../../pages/RestorePreventedRoute";

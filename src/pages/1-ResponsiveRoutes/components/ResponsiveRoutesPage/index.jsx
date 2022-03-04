@@ -1,12 +1,11 @@
 import React, { useContext } from "react";
-import { useRouteMatch, Switch, Route, Redirect } from "react-router-dom";
-
-import DeviceInfoContext from "~/contexts/DeviceInfoContext";
+import { useRouteMatch, Switch, Route, Redirect} from "react-router-dom";
 
 import Desktop from "../Desktop";
 import ResponsiveList from "../ResponsiveList";
 import ResponsiveFilters from "../ResponsiveFilters";
 import ResponsiveFilter from "../ResponsiveFilter";
+import DeviceInfoContext from "../../../../contexts/DeviceInfoContext";
 
 const ResponsiveRoutesPage = () => {
   const { url } = useRouteMatch();
