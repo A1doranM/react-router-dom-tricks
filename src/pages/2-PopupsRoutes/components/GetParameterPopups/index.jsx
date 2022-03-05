@@ -1,6 +1,6 @@
 import React from "react";
 
-import { GET_ENUMS } from "~/const/router";
+import { GET_ENUMS } from "../../../../const/router";
 
 import useGetPopupState from "./hooks/useGetPopupState";
 import SignIn from "./Popups/SignIn";
